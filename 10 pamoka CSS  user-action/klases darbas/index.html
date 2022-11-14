@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#55">Nuoroda</a>
+    </header>
+    <main>
+      <form action="#">
+        <legend>Apklausa</legend>
+        <fieldset>
+          <label for="vardas">Vardas</label>
+          <input type="text" name="name" id="vardas" required autofocus />
+          <label for="pavarde">Pavarde</label>
+          <input type="text" name="last-name" id="pavarde" disabled />
+          <label for="amzius">Amzius</label>
+          <input type="number" name="age" id="amzius" min="18" max="99" />
+          <label for="id">Asmens kodas</label>
+          <input type="text" name="id" id="id" readonly value="1654694980" />
+        </fieldset>
+        <fieldset>
+          <legend>Megstamiausias gerimas</legend>
+          <input type="radio" name="drink" id="kava" value="coffee" />
+          <label for="kava">Kava</label>
+          <input type="radio" name="drink" id="arbata" value="tea" />
+          <label for="arbata">Arbata</label>
+          <input type="radio" name="drink" id="alus" value="beer" />
+          <label for="alus">Alus</label>
+          <input type="radio" name="drink" id="kitas" value="other" />
+          <label for="kitas">Kava</label>
+        </fieldset>
+        <button type="submit">Siusti</button>
+      </form>
+    </main>
+  </body>
+</html>

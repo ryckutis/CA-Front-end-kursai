@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 1em 20% 0 20%;
+}
+
+main {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    padding: 1em;
+}
+
+nav {
+    background-color: rgb(168, 151, 0);
+    padding: 1em;
+    text-align: right;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.about {
+    padding-top: 1em;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.about a {
+    background-color: red;
+    padding: 6px 40px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+

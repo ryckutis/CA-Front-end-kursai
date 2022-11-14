@@ -1,0 +1,149 @@
+body {
+    background-color: whitesmoke;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+#img {
+    width: 200px;
+    margin: 2em auto;
+    display: block;
+}
+
+form {
+    border: 2px solid rgb(194, 194, 194);
+    border-radius: 3px;
+    text-align: center;
+    background-color: white;
+}
+
+input {
+    box-sizing: border-box;
+    width:70%;
+    height: 37px;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 3px;
+    margin-bottom: .5em;
+    background-color: whitesmoke;
+}
+
+button {
+    box-sizing: border-box;
+    margin: .5em 0 1em 0;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(0,149,246);
+    color: white;
+    font-weight: bold;
+    width: 70%;
+    height: 30px;
+}
+
+button:disabled {
+    background-color: rgb(134, 207, 255);
+}
+
+div.or p {
+    width: 55%;
+    height: 20px;
+    margin: 1em auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(97, 97, 97);
+}
+
+.or p:before,
+.or p:after {
+  background-color: #dbdbdb;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 10vh;
+}
+
+.or:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.or:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+/* div.line {
+    display: inline;
+    border: 1px solid black;
+    width: 10px;
+    height: 10px;
+} */
+
+form a {
+    display: block;
+    width: fit-content;
+    text-decoration: none;
+    color: rgb(62, 89, 146);
+    font-size: 15px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 1.5em auto;
+}
+
+#fb-logo::before {
+    font-family: FontAwesome;
+    content:"\f230";
+    margin-right: 8px;
+}
+
+#forgot {
+    font-size: 11px;
+}
+
+section {
+    padding: .5em;
+    margin: 1em auto;
+    border: 2px solid rgb(194, 194, 194);
+    border-radius: 3px;
+    text-align: center;
+    background-color: white;
+}
+
+section p {
+    padding: 0em auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(97, 97, 97);
+}
+
+section a {
+    text-decoration: none;
+    color: rgb(0,149,246);
+}
+
+.outside {
+    text-align: center;
+}
+
+.outside p {
+    margin: 1.5em  auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(97, 97, 97);
+}
+
+.outside a {
+    margin-right: 10px;
+}
+
+.outside img {
+    width: 140px;
+}
+

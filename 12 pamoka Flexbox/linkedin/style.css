@@ -1,0 +1,80 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 65px;
+}
+
+nav a {
+    text-decoration: none;
+    color: gray;
+    padding-right:5px ;
+}
+
+.center {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: rgb(199, 199, 199);
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+}
+
+.profile {
+    width: 80px;
+    border-radius: 50%;
+}
+
+section {
+    margin: 15px;
+}
+
+section:first-child {
+    flex: 2;
+}
+
+section:nth-child(2) {
+    flex: 5;
+}
+
+section:last-child {
+    flex: 3;
+}
+
+.section-item {
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    margin: 10px;
+}
+
+.section-photo {
+    width: 100%;
+}
+
+section button {
+    background-color: blue;
+    border: 0;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+#start-post-container {
+    display: flex;
+    align-self: flex-start;
+}
+

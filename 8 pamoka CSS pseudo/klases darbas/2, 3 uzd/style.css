@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+}
+
+
+h1::before, h1::after{
+    font-family: FontAwesome;
+    content: '\f15a' ;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+}
+
+a:not(a:first-child)::before {
+    content: '//';
+    padding: 2px;
+}
+
+

@@ -1,0 +1,147 @@
+body {
+  background-color: #fbfbfb;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  display: block;
+  width: 80vh;
+  height: 80vh;
+  margin: auto;
+}
+main,
+.secondcolumn {
+  background-color: #ffffff;
+
+  border: 1px solid rgb(187, 187, 187);
+  border-radius: 1px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 5px 0px rgb(180, 180, 180);
+  display: block;
+  margin: auto;
+  margin: 15px 0;
+  padding: 20px;
+}
+
+img {
+  width: 70%;
+  margin: 30px 0;
+}
+
+.inputcenter {
+  display: block;
+  margin: auto;
+  justify-content: center;
+  width: 80%;
+}
+input[type="text"] {
+  margin-bottom: 10px;
+}
+input[type="text"],
+input[type="password"] {
+  border: 0.5px solid rgb(187, 187, 187);
+  border-radius: 3px;
+  display: block;
+  padding: 10px 0px;
+  width: 100%;
+}
+
+input[type="button"] {
+  color: white;
+  display: block;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid rgb(23, 157, 247);
+  border-radius: 3px;
+  background-color: rgb(23, 157, 247);
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 10px 0;
+}
+input:active[type="button"] {
+  background-color: rgb(90, 177, 235);
+  border: 1px solid rgb(90, 177, 235);
+}
+input:focus[type="text"],
+input:focus[type="password"] {
+  outline: none;
+  border: 0.5px solid rgb(94, 94, 94);
+}
+.or {
+  margin: 20px 0;
+  font-size: 13px;
+  color: #8e8e8e;
+  font-weight: 600;
+}
+
+.or:before,
+.or:after {
+  background-color: #dbdbdb;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 37%;
+}
+
+.or:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.or:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+h3 {
+  color: #385185;
+  font-size: 14px;
+  word-spacing: 1px;
+}
+
+h3::before {
+  font-family: FontAwesome;
+  content: "\f230";
+  margin-right: 10px;
+  font-size: large;
+}
+
+.password {
+  color: #00376b;
+  font-size: 12px;
+  margin: 10px 0 0 0;
+}
+
+.secondcolumn {
+  padding: 15px;
+}
+.secondcolumn p {
+  padding: 10px;
+  margin: 0;
+  color: #262626;
+}
+
+.lastp {
+  margin: 20px 20px;
+  font-size: 14px;
+  color: #262626;
+}
+
+span {
+  color: #0095f6;
+  font-size: 15px;
+}
+
+.apps-logo {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.apps-logo img {
+  width: 30%;
+  height: 9%;
+  margin: 5px;
+}

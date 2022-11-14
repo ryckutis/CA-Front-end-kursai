@@ -1,0 +1,45 @@
+html {
+    background-color: rgb(65, 1, 95);
+}
+
+body {
+    text-align: center;
+    border: 3px dotted orange;
+    background-color: rgb(42, 0, 53);
+    margin: 5em 42em 5em 42em;
+    padding: 2em 0em 1em 0em  ;
+    
+}
+
+h1 {
+    text-transform: uppercase;
+    color: orange;
+    font-weight: bold;
+
+}
+
+h2, h3, p {
+    color: brown;
+}
+
+p {
+    font-size: 20px;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+    text-align: justify;
+    margin: 2em 1em 4em 1em ;
+
+}
+
+span {
+    font-size: 50px;
+    margin-right: 15px ;
+}
+
+img {
+    width: 300px;
+    border-top: 1.5em solid whitesmoke;
+    border-left: 1.5em solid blue;
+    border-right: 1.5em solid black;
+    border-bottom: 1.5em solid green;
+    border-radius: 50px;
+}

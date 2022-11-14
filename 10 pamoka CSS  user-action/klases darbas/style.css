@@ -1,0 +1,67 @@
+/* Nuorodu busenos */
+a:link {
+    color: red;
+}
+
+a:hover {
+    color: green;
+}
+
+a:visited {
+    color: magenta;
+}
+
+a:active {
+    color: black;
+}
+/* Formos pseudo busenos */
+
+form {
+    margin: 3rem auto;
+    max-width: 300px;
+    text-align: center;
+    background-color: lightpink;
+    padding: 3rem;
+}
+
+input {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+button {
+    margin-top: 2rem;
+    padding: 1rem;
+    border: none;
+    background-color: lightblue;
+}
+input:required {
+    background-color: orange;
+}
+
+input:focus {
+    background-color: aqua;
+}
+
+input:disabled {
+    background-color: green;
+}
+
+input:in-range {
+    background-color: blue;
+}
+
+input:out-of-range {
+    background-color: red;
+}
+
+input:read-only {
+    background-color: gray;
+}
+
+input[type="radio"]:checked {
+    height: 1rem;
+}
+

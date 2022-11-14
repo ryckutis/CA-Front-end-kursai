@@ -1,0 +1,55 @@
+
+form {
+    margin: 1em 25% ;
+    padding: .5em;
+    text-align: center;
+    border-radius: 3px;
+    background-color: darkslategray;
+    color: white;
+}
+
+#required {
+    background-color: magenta;
+}
+
+input, textarea {
+    display: block;
+    margin: auto auto 1em auto;
+}
+
+input:invalid, textarea:invalid, input:out-of-range{
+    border: 3px solid red;
+}
+
+input:valid, textarea:valid, input:in-range {
+    border: 3px solid greenyellow;
+}
+
+input:required, textarea:required {
+    border-left:3px solid violet ;
+}
+
+#id {
+    background-color: grey;
+}
+
+#terms {
+    display: inline;
+}
+
+#terms:checked + label {
+    color: blue;
+}
+
+button {
+    display: block;
+    margin: auto auto 1.5em auto;
+    background-color: green;
+    color: white;
+}
+
+button:hover {
+    background-color: darkgreen;
+    
+}
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Payment form</h1>
+      <p>Required fields are followed by *.</p>
+
+      <form action="#">
+        <h2>Contact information</h2>
+        <fieldset>
+          <legend>Title</legend>
+          <input type="radio" name="gender" id="mr" />
+          <label for="mr">Mr</label>
+          <input type="radio" name="gender" id="miss" />
+          <label for="mr">Mr</label>
+        </fieldset>
+        <label for="name">Name: *</label>
+        <input type="text" name="vardas" id="name" required />
+        <label for="email">Email: *</label>
+        <input type="email" name="pastas" id="email" required />
+        <label for="psw">Password: *</label>
+        <input type="password" name="slaptikas" id="psw" required />
+        <h2>Payment information</h2>
+        <label for="card">Card type: *</label>
+        <select name="card-type" id="card" required>
+          <option value="visa">Visa</option>
+          <option value="mastercard">MasterCard</option>
+          <option value="maestro">Maestro</option>
+        </select>
+        <label for="card-num">Card number: *</label>
+        <input type="number" name="card-number" id="card-num" required />
+        <label for="exp-date">Expiration date: *</label>
+        <input type="date" name="exp-date" id="exp-date" required />
+        <button type="submit">Validate the payment</button>
+      </form>
+    </main>
+  </body>
+</html>

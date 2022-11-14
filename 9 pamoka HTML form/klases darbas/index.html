@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="#" method="POST" novalidate>
+      <fieldset>
+        <legend>Kazkas</legend>
+        <input type="text" autofocus required maxlength="10" />
+        <br />
+        <input type="email" required multiple />
+        <br />
+        <input type="number" required max="30" autofocus min="20" />
+        <br />
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br />
+        <label for="check">Mano checkas </label>
+        <input type="checkbox" id="check" />
+      </fieldset>
+
+      <br />
+      <input type="password" placeholder="Slaptazodis" />
+      <br />
+      <fieldset>
+        <input type="radio" name="id" />
+        <input type="radio" name="id" />
+        <input type="radio" name="id" />
+      </fieldset>
+      <input type="file" accept=".doc, .docx" />
+      <br />
+      <button type="submit">Submit</button>
+      <br />
+      <button type="reset">Reset</button>
+      <br />
+      <label for="cat-or-dog">Choose your favorite pet</label>
+      <select name="cat-or-dog" id="" multiple>
+        <option value="this person loves cats">Cat</option>
+        <option value="this person loves dogs">Dog</option>
+      </select>
+      <input type="color" />
+      <br />
+      <input type="range" step="10" min="0" max="100" />
+    </form>
+  </body>
+</html>

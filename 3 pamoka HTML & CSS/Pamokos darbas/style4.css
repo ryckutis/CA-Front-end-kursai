@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+body {
+    background: linear-gradient(blue, purple);
+    height: 100vh;
+}
+
+img {
+    width: 300px;
+    box-shadow: 10px 5px 10px aquamarine;
+}
+
+li {
+    font-family: 'Roboto', sans-serif;
+}
+
+.center-text {
+    text-align: center;
+    color: whitesmoke;
+}
