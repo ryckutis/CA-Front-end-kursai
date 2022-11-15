@@ -1,0 +1,124 @@
+main {
+  width: 40%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.flex-container-1 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.flex-container-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.flex-container-3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.dice {
+  display: flex;
+  flex-shrink: 1;
+  background-color: rgb(199, 198, 198);
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 5px;
+  box-shadow: 5px -5px 10px 1px;
+}
+
+.flex-container-2 .dice {
+  width: 270px;
+  height: 270px;
+}
+
+.eye {
+  display: flex;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: black;
+}
+
+.flex-container-2 .dice .eye {
+  width: 60px;
+  height: 60px;
+  border-radius: 40px;
+}
+
+.one {
+  align-items: center;
+  justify-content: center;
+}
+
+.two:first-of-type {
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.two {
+  justify-content: space-between;
+}
+
+.two .eye:last-of-type {
+  align-self: flex-end;
+}
+
+.three {
+  justify-content: space-between;
+}
+
+.three .eye:nth-of-type(2) {
+  align-self: center;
+}
+
+.three .eye:last-of-type {
+  align-self: flex-end;
+}
+
+.container {
+  display: flex;
+}
+
+.four {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.four .container {
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.five {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.five .container {
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.five .container:nth-of-type(2) {
+  justify-content: center;
+}
+
+.six {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.six .container {
+  justify-content: space-between;
+  flex-direction: column;
+}
