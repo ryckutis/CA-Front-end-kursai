@@ -1,0 +1,42 @@
+* {
+    background-color: blue;
+}
+
+.container, .fluid-container {
+    max-width: 750px;
+    border: 1px solid crimson;
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.cell, .fluid {
+    background-color: crimson;
+    border: 1px solid black;
+    width: 100px;
+    line-height: 100px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .cell {
+        background-color: green;
+    }
+}
+
+.fluid-container div:first-child{
+    /* width: 60%; */
+    flex: 3;
+
+}
+
+.fluid-container div:last-child {
+    /* width: 40%; */
+    flex: 1;
+}
+
